@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6402C00C2B55DFF500C8E105 /* modelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6402C00B2B55DFF500C8E105 /* modelsTests.swift */; };
+		6402C00E2B55E18000C8E105 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6402C00D2B55E18000C8E105 /* Store.swift */; };
+		6402C0132B55E52800C8E105 /* Date+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6402C0122B55E52800C8E105 /* Date+Helpers.swift */; };
+		6402C0152B55FEB700C8E105 /* UserDefaults+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6402C0142B55FEB700C8E105 /* UserDefaults+Store.swift */; };
 		640662B12B55883B00566203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640662B02B55883B00566203 /* AppDelegate.swift */; };
 		640662B32B55883B00566203 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640662B22B55883B00566203 /* SceneDelegate.swift */; };
-		640662B52B55883B00566203 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640662B42B55883B00566203 /* ViewController.swift */; };
+		640662B52B55883B00566203 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640662B42B55883B00566203 /* StopwatchViewController.swift */; };
 		640662B82B55883B00566203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640662B62B55883B00566203 /* Main.storyboard */; };
 		640662BA2B55883F00566203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640662B92B55883F00566203 /* Assets.xcassets */; };
 		640662BD2B55883F00566203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640662BB2B55883F00566203 /* LaunchScreen.storyboard */; };
 		640662C82B55884000566203 /* comidaBebeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640662C72B55884000566203 /* comidaBebeTests.swift */; };
 		640662D22B55884000566203 /* comidaBebeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640662D12B55884000566203 /* comidaBebeUITests.swift */; };
 		640662D42B55884000566203 /* comidaBebeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640662D32B55884000566203 /* comidaBebeUITestsLaunchTests.swift */; };
+		640662E42B5589F900566203 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640662E32B5589F900566203 /* HistoryViewController.swift */; };
+		640662E82B558ADE00566203 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640662E72B558ADE00566203 /* StatisticsViewController.swift */; };
+		640662EA2B558C0C00566203 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640662E92B558C0C00566203 /* SettingsViewController.swift */; };
+		64E9A08C2B55A1F9006281C8 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 64E9A08B2B55A1F9006281C8 /* Swinject */; };
+		64E9A0902B55A233006281C8 /* Container+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9A08F2B55A233006281C8 /* Container+Helpers.swift */; };
+		64E9A0922B55A24D006281C8 /* UserDefaults+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9A0912B55A24D006281C8 /* UserDefaults+Helpers.swift */; };
+		64E9A0942B55A38D006281C8 /* FeedingDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9A0932B55A38D006281C8 /* FeedingDay.swift */; };
+		64E9A0962B55A3C4006281C8 /* FeedingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9A0952B55A3C3006281C8 /* FeedingItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6402C00B2B55DFF500C8E105 /* modelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelsTests.swift; sourceTree = "<group>"; };
+		6402C00D2B55E18000C8E105 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		6402C0122B55E52800C8E105 /* Date+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Helpers.swift"; sourceTree = "<group>"; };
+		6402C0142B55FEB700C8E105 /* UserDefaults+Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Store.swift"; sourceTree = "<group>"; };
 		640662AD2B55883B00566203 /* comidaBebe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = comidaBebe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		640662B02B55883B00566203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		640662B22B55883B00566203 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		640662B42B55883B00566203 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		640662B42B55883B00566203 /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
 		640662B72B55883B00566203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		640662B92B55883F00566203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		640662BC2B55883F00566203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +65,13 @@
 		640662CD2B55884000566203 /* comidaBebeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = comidaBebeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		640662D12B55884000566203 /* comidaBebeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comidaBebeUITests.swift; sourceTree = "<group>"; };
 		640662D32B55884000566203 /* comidaBebeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comidaBebeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		640662E32B5589F900566203 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HistoryViewController.swift; path = ../../../../../../../../Documents/HistoryViewController.swift; sourceTree = "<group>"; };
+		640662E72B558ADE00566203 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		640662E92B558C0C00566203 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		64E9A08F2B55A233006281C8 /* Container+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container+Helpers.swift"; sourceTree = "<group>"; };
+		64E9A0912B55A24D006281C8 /* UserDefaults+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Helpers.swift"; sourceTree = "<group>"; };
+		64E9A0932B55A38D006281C8 /* FeedingDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingDay.swift; sourceTree = "<group>"; };
+		64E9A0952B55A3C3006281C8 /* FeedingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedingItem.swift; path = ../../../../../../../Documents/FeedingItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E9A08C2B55A1F9006281C8 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +100,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6402C00F2B55E29900C8E105 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		640662A42B55883B00566203 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +130,13 @@
 		640662AF2B55883B00566203 /* comidaBebe */ = {
 			isa = PBXGroup;
 			children = (
-				640662B02B55883B00566203 /* AppDelegate.swift */,
-				640662B22B55883B00566203 /* SceneDelegate.swift */,
-				640662B42B55883B00566203 /* ViewController.swift */,
+				6402C00F2B55E29900C8E105 /* Utils */,
+				640662EC2B558E6900566203 /* Models */,
+				640662E12B5588B100566203 /* ViewControllers */,
+				640662E02B55888E00566203 /* Resources */,
 				640662B62B55883B00566203 /* Main.storyboard */,
-				640662B92B55883F00566203 /* Assets.xcassets */,
-				640662BB2B55883F00566203 /* LaunchScreen.storyboard */,
-				640662BE2B55883F00566203 /* Info.plist */,
+				640662EE2B558E8C00566203 /* Store */,
+				640662ED2B558E6F00566203 /* Extensions */,
 			);
 			path = comidaBebe;
 			sourceTree = "<group>";
@@ -114,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				640662C72B55884000566203 /* comidaBebeTests.swift */,
+				6402C00B2B55DFF500C8E105 /* modelsTests.swift */,
 			);
 			path = comidaBebeTests;
 			sourceTree = "<group>";
@@ -125,6 +157,89 @@
 				640662D32B55884000566203 /* comidaBebeUITestsLaunchTests.swift */,
 			);
 			path = comidaBebeUITests;
+			sourceTree = "<group>";
+		};
+		640662E02B55888E00566203 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				640662B02B55883B00566203 /* AppDelegate.swift */,
+				640662B22B55883B00566203 /* SceneDelegate.swift */,
+				640662BB2B55883F00566203 /* LaunchScreen.storyboard */,
+				640662B92B55883F00566203 /* Assets.xcassets */,
+				640662BE2B55883F00566203 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		640662E12B5588B100566203 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				640662EB2B558C1000566203 /* Settings */,
+				640662E62B558ABB00566203 /* Statistics */,
+				640662E52B558A0C00566203 /* Stopwatch */,
+				640662E22B5589D300566203 /* History */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		640662E22B5589D300566203 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				640662E32B5589F900566203 /* HistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		640662E52B558A0C00566203 /* Stopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				640662B42B55883B00566203 /* StopwatchViewController.swift */,
+			);
+			path = Stopwatch;
+			sourceTree = "<group>";
+		};
+		640662E62B558ABB00566203 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				640662E72B558ADE00566203 /* StatisticsViewController.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		640662EB2B558C1000566203 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				640662E92B558C0C00566203 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		640662EC2B558E6900566203 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64E9A0932B55A38D006281C8 /* FeedingDay.swift */,
+				64E9A0952B55A3C3006281C8 /* FeedingItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		640662ED2B558E6F00566203 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6402C0122B55E52800C8E105 /* Date+Helpers.swift */,
+				64E9A08F2B55A233006281C8 /* Container+Helpers.swift */,
+				64E9A0912B55A24D006281C8 /* UserDefaults+Helpers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		640662EE2B558E8C00566203 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				6402C00D2B55E18000C8E105 /* Store.swift */,
+				6402C0142B55FEB700C8E105 /* UserDefaults+Store.swift */,
+			);
+			path = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +258,9 @@
 			dependencies = (
 			);
 			name = comidaBebe;
+			packageProductDependencies = (
+				64E9A08B2B55A1F9006281C8 /* Swinject */,
+			);
 			productName = comidaBebe;
 			productReference = 640662AD2B55883B00566203 /* comidaBebe.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +333,9 @@
 				Base,
 			);
 			mainGroup = 640662A42B55883B00566203;
+			packageReferences = (
+				64E9A08A2B55A1F9006281C8 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = 640662AE2B55883B00566203 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +379,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				640662B52B55883B00566203 /* ViewController.swift in Sources */,
+				64E9A0942B55A38D006281C8 /* FeedingDay.swift in Sources */,
+				6402C0132B55E52800C8E105 /* Date+Helpers.swift in Sources */,
+				640662B52B55883B00566203 /* StopwatchViewController.swift in Sources */,
+				640662E82B558ADE00566203 /* StatisticsViewController.swift in Sources */,
+				64E9A0962B55A3C4006281C8 /* FeedingItem.swift in Sources */,
+				64E9A0922B55A24D006281C8 /* UserDefaults+Helpers.swift in Sources */,
+				6402C0152B55FEB700C8E105 /* UserDefaults+Store.swift in Sources */,
+				64E9A0902B55A233006281C8 /* Container+Helpers.swift in Sources */,
+				6402C00E2B55E18000C8E105 /* Store.swift in Sources */,
 				640662B12B55883B00566203 /* AppDelegate.swift in Sources */,
 				640662B32B55883B00566203 /* SceneDelegate.swift in Sources */,
+				640662E42B5589F900566203 /* HistoryViewController.swift in Sources */,
+				640662EA2B558C0C00566203 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				640662C82B55884000566203 /* comidaBebeTests.swift in Sources */,
+				6402C00C2B55DFF500C8E105 /* modelsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,12 +571,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34ALGUQDF2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = comidaBebe/Info.plist;
+				INFOPLIST_FILE = comidaBebe/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,12 +598,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34ALGUQDF2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = comidaBebe/Info.plist;
+				INFOPLIST_FILE = comidaBebe/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,6 +732,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		64E9A08A2B55A1F9006281C8 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		64E9A08B2B55A1F9006281C8 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64E9A08A2B55A1F9006281C8 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 640662A52B55883B00566203 /* Project object */;
 }
