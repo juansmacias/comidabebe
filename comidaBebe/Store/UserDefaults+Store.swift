@@ -13,7 +13,7 @@ extension UserDefaults: Store {
     var discountPublisher: AnyPublisher<[FeedingDay], Never> {
         publisher(for: \.feedingDays)
             .compactMap { $0 }
-            .replaceError(with: 0)
+            .replaceError(with: git 0)
             .eraseToAnyPublisher()
     }
 }

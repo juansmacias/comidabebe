@@ -65,13 +65,13 @@
 		640662CD2B55884000566203 /* comidaBebeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = comidaBebeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		640662D12B55884000566203 /* comidaBebeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comidaBebeUITests.swift; sourceTree = "<group>"; };
 		640662D32B55884000566203 /* comidaBebeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comidaBebeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		640662E32B5589F900566203 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HistoryViewController.swift; path = ../../../../../../../../Documents/HistoryViewController.swift; sourceTree = "<group>"; };
+		640662E32B5589F900566203 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		640662E72B558ADE00566203 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		640662E92B558C0C00566203 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		64E9A08F2B55A233006281C8 /* Container+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container+Helpers.swift"; sourceTree = "<group>"; };
 		64E9A0912B55A24D006281C8 /* UserDefaults+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Helpers.swift"; sourceTree = "<group>"; };
 		64E9A0932B55A38D006281C8 /* FeedingDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingDay.swift; sourceTree = "<group>"; };
-		64E9A0952B55A3C3006281C8 /* FeedingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedingItem.swift; path = ../../../../../../../Documents/FeedingItem.swift; sourceTree = "<group>"; };
+		64E9A0952B55A3C3006281C8 /* FeedingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,13 +100,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6402C00F2B55E29900C8E105 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
 		640662A42B55883B00566203 = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +123,6 @@
 		640662AF2B55883B00566203 /* comidaBebe */ = {
 			isa = PBXGroup;
 			children = (
-				6402C00F2B55E29900C8E105 /* Utils */,
 				640662EC2B558E6900566203 /* Models */,
 				640662E12B5588B100566203 /* ViewControllers */,
 				640662E02B55888E00566203 /* Resources */,
