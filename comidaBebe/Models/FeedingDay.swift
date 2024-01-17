@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum FeedingPeriod {
+enum FeedingPeriod:Int,Codable {
     case MorningP1
     case MorningP2
     case MorningP3
@@ -18,8 +18,14 @@ enum FeedingPeriod {
     case AfternoonP4
 }
 
-struct FeedingDay {
-    let date: Date
+struct FeedingDay:Codable {
+    
+    enum CodingKeys: String, CodingKey {
+        case date
+        case feedingItems
+    }
+    
+    internal let date: Date
     var feedingItems: [FeedingPeriod:FeedingItem] = .init()
     
     public mutating func addFeedingitem(with fp:FeedingPeriod, fi:FeedingItem){
@@ -27,5 +33,11 @@ struct FeedingDay {
     }
     public mutating func removeFeedingitem(with fp:FeedingPeriod){
         feedingItems[fp] = nil
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        date = try container.decode(Date.self, forKey: .date)
+        feedingItems = try container.decode([FeedingPeriod:FeedingItem].self, forKey: .feedingItems)
     }
 }

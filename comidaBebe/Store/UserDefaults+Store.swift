@@ -9,11 +9,15 @@ import Foundation
 import Combine
 
 extension UserDefaults: Store {
+    
     // MARK: - Publisher
-    var discountPublisher: AnyPublisher<[FeedingDay], Never> {
+    var feedingDaysPublisher: AnyPublisher<[FeedingDay], Never> {
         publisher(for: \.feedingDays)
             .compactMap { $0 }
-            .replaceError(with: git 0)
+            .decode(
+                type: [FeedingDay].self,
+                decoder: JSONDecoder()
+            ).replaceError(with: [])
             .eraseToAnyPublisher()
     }
 }

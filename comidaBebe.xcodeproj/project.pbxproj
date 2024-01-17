@@ -23,6 +23,8 @@
 		640662E42B5589F900566203 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640662E32B5589F900566203 /* HistoryViewController.swift */; };
 		640662E82B558ADE00566203 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640662E72B558ADE00566203 /* StatisticsViewController.swift */; };
 		640662EA2B558C0C00566203 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640662E92B558C0C00566203 /* SettingsViewController.swift */; };
+		647F864C2B57889500ACB074 /* FeedingItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647F864B2B57889500ACB074 /* FeedingItemCell.swift */; };
+		647F864E2B57917F00ACB074 /* FeedingItemCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647F864D2B57917F00ACB074 /* FeedingItemCellViewModel.swift */; };
 		64E9A08C2B55A1F9006281C8 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 64E9A08B2B55A1F9006281C8 /* Swinject */; };
 		64E9A0902B55A233006281C8 /* Container+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9A08F2B55A233006281C8 /* Container+Helpers.swift */; };
 		64E9A0922B55A24D006281C8 /* UserDefaults+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9A0912B55A24D006281C8 /* UserDefaults+Helpers.swift */; };
@@ -68,6 +70,8 @@
 		640662E32B5589F900566203 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		640662E72B558ADE00566203 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		640662E92B558C0C00566203 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		647F864B2B57889500ACB074 /* FeedingItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingItemCell.swift; sourceTree = "<group>"; };
+		647F864D2B57917F00ACB074 /* FeedingItemCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingItemCellViewModel.swift; sourceTree = "<group>"; };
 		64E9A08F2B55A233006281C8 /* Container+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container+Helpers.swift"; sourceTree = "<group>"; };
 		64E9A0912B55A24D006281C8 /* UserDefaults+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Helpers.swift"; sourceTree = "<group>"; };
 		64E9A0932B55A38D006281C8 /* FeedingDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingDay.swift; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 		640662E52B558A0C00566203 /* Stopwatch */ = {
 			isa = PBXGroup;
 			children = (
+				647F864A2B57886D00ACB074 /* FeedingItemCell */,
 				640662B42B55883B00566203 /* StopwatchViewController.swift */,
 			);
 			path = Stopwatch;
@@ -232,6 +237,15 @@
 				6402C0142B55FEB700C8E105 /* UserDefaults+Store.swift */,
 			);
 			path = Store;
+			sourceTree = "<group>";
+		};
+		647F864A2B57886D00ACB074 /* FeedingItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				647F864B2B57889500ACB074 /* FeedingItemCell.swift */,
+				647F864D2B57917F00ACB074 /* FeedingItemCellViewModel.swift */,
+			);
+			path = FeedingItemCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,12 +388,14 @@
 				64E9A0942B55A38D006281C8 /* FeedingDay.swift in Sources */,
 				6402C0132B55E52800C8E105 /* Date+Helpers.swift in Sources */,
 				640662B52B55883B00566203 /* StopwatchViewController.swift in Sources */,
+				647F864C2B57889500ACB074 /* FeedingItemCell.swift in Sources */,
 				640662E82B558ADE00566203 /* StatisticsViewController.swift in Sources */,
 				64E9A0962B55A3C4006281C8 /* FeedingItem.swift in Sources */,
 				64E9A0922B55A24D006281C8 /* UserDefaults+Helpers.swift in Sources */,
 				6402C0152B55FEB700C8E105 /* UserDefaults+Store.swift in Sources */,
 				64E9A0902B55A233006281C8 /* Container+Helpers.swift in Sources */,
 				6402C00E2B55E18000C8E105 /* Store.swift in Sources */,
+				647F864E2B57917F00ACB074 /* FeedingItemCellViewModel.swift in Sources */,
 				640662B12B55883B00566203 /* AppDelegate.swift in Sources */,
 				640662B32B55883B00566203 /* SceneDelegate.swift in Sources */,
 				640662E42B5589F900566203 /* HistoryViewController.swift in Sources */,

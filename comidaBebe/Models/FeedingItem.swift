@@ -7,37 +7,12 @@
 
 import Foundation
 
-public struct FeedingItem {
-    var arrDates: [(Date,Date)] = .init()
-
-    var startingDate: Date?
+struct FeedingItem:Codable {
     
-    var hours:Double {
-        var hours = 0.0
-        for dateTuple in arrDates {
-            let (startDate, endDate) = dateTuple
-            hours += calculateHours(startDate: startDate, endDate: endDate)
-        }
-        return hours
+    enum CodingKeys: String, CodingKey {
+        case timeValue
     }
     
-    func calculateHours(startDate: Date, endDate: Date) -> TimeInterval {
-        return endDate.timeIntervalSince(startDate) / 3600  // 3600 seconds in an hour
-    }
-    
-    public mutating func startNewDate(_ date:Date){
-        startingDate = date
-    }
-    
-    public mutating func storeDate(_ endDate:Date){
-        if let strDate = startingDate {
-            arrDates.append((strDate,endDate))
-        }
-        startingDate = nil
-    }
-    
-    public init(starting date:Date){
-        startingDate = date
-    }
+    internal let timeValue: Double
     
 }

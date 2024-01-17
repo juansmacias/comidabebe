@@ -29,8 +29,22 @@ extension UserDefaults {
         }
     }
     
-    func register(){
-        UserDefaults.standard.register()
+    func addFeedingDay(_ feedingDay: FeedingDay) throws {
+        do {
+            guard var arrFeedingDays = try decode(
+                [FeedingDay].self,
+                forKey: Keys.feedingDays
+            ) else {
+                throw UserDefaultsErrors.ErrorDecodingElement
+            }
+            
+            arrFeedingDays.append(feedingDay)
+            
+            try encode(arrFeedingDays, forKey: Keys.feedingDays)
+                    
+        } catch{
+            throw error
+        }
     }
 }
 

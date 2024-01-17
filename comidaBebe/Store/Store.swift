@@ -14,5 +14,5 @@ protocol Store {
     
     //MARK: - Methods
     
-    func addFeedingDay(_ feedingDay:FeedingDay)
+    func addFeedingDay(_ feedingDay:FeedingDay) throws
 }
